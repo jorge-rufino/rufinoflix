@@ -121,3 +121,7 @@ body > img.filme {
   font-size: 14px;
   border-radius: 10px;
 }
+
+.form input{
+  width: 20%;
+}
