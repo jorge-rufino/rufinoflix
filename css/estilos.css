@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/fotos-premium/filas-de-assentos-de-veludo-vermelho-assistindo-filmes-no-cinema-com-fundo-de-banner-de-espaco-de-copia_629685-7435.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: #e50914;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 20px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img.filme {
+  max-height: 250px;
+  margin: 0 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #fff;
+}
+
+.nomeFilme,
+.novoFilme {
+  margin-bottom: 10px;
+}
+
+.filme {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  margin: 10px;
+}
+
+body > img.filme {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+#listaFilmes img:hover {
+  transform: scale(1.1);
+}
+
+#listaFilmes img {
+  border: 3px solid white;
+}
+
+.btnSalvar button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnSalvar button:hover {
+  opacity: 0.8;
+}
+
+.trailerFilme {
+  margin-left: -10px;
+}
+
+.nomeFilmePoster {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btnRemover {
+  display: block;
+  margin: 10px auto;
+  background-color: #da1e26;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 10px;
+}

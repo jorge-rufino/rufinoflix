@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+
+    <title>RufinoFlix</title>
+
+    <!--A ordem de importação aqui é importante-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        RufinoFlix
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+    <div class="form">
+      <div class="nomeFilme">
+        <label for="nomeFilme">Adicionar nome do Filme:</label>
+        <input type="text" id="nomeFilme">
+      </div>
+    
+      <div class="novoFilme">
+        <label for="novoFilme">Adicionar URL do Poster:</label>
+        <input type="text" id="novoFilme">
+      </div>
+    
+      <div class="trailerFilme">
+        <label for="trailerFilme">Adicionar URL do Trailer:</label>
+        <input type="text" id="trailerFilme">
+      </div>
+    </div>
+    
+    <div class="btnSalvar">
+      <button onclick="adicionarFilme()">Adicionar</button>
+    </div>
+    
+    <div id="listaFilmes"></div>
+
+  </body>
+  
+  <script src="js/script.js"></script>
+
+</html>
